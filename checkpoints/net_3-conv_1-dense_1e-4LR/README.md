@@ -4,7 +4,7 @@
 
 _here is the NN used:_
 
-```def CNN_galaxy():
+`def CNN_galaxy():
 
     model = Sequential()
     model.add(Conv2D(512, (3, 3), input_shape=(224, 224, 3)))
@@ -51,4 +51,4 @@ _here is the NN used:_
     optimizer = keras.optimizers.Adam(lr=LR, decay=WEIGHT_DECAY)
     model.compile(optimizer, loss='binary_crossentropy', metrics=[root_mean_squared_error])
 
-    return model```
+    return model`
