@@ -2,6 +2,7 @@
  
 ###Previous attempt:
 _network with 4 convolutional layers (from 512 to 64) and 1*3+1 dense, LR with scheduler and Adamax optimizer_
+
 With all possible LR values the model is not good cause of Adamax optimizer: training loss went to NaN immediately.
 
 ## RMSE = ?, Validation Loss = ?
