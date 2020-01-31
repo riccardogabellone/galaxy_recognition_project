@@ -1,6 +1,6 @@
 ﻿# network with 3 convolutional layers (from 512 to 128) and 1*3+1 dense and Adam optimizer
 
-## RMSE = 0.1143
+## RMSE = 0.1143, Validation Loss = 0.2398
 
 _here is the NN used:_
 
