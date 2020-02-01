@@ -1,5 +1,5 @@
 ﻿# network with 4 convolutional layers (from 512 to 64) and 2*3+1 dense, LR = 1e-3 and Adamax optimizer
-# RMSE = 0.1211 VAL_LOSS= 0.2544
+## RMSE = 0.1211 VAL_LOSS= 0.2544
 
 
 def CNN_galaxy():
