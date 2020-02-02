@@ -2,7 +2,7 @@
  
 ### Previous attempts
 #### 1) _network with 4 convolutional layers (from 512 to 64) and 1*3+1 dense, LR with scheduler and Adamax optimizer_
-With all possible LR values the model is not good cause of Adamax optimizer: training loss went to NaN immediately.
+With all possible LR values the model is not good cause of Adamax optimizer: training loss went to NaN immediately. Trying to change the batch size with a smaller value the model seemed to be no good.
 #### 2) _network with 4 convolutional layers (from 512 to 64) with BatchNormalization and 1*3+1 dense, LR with scheduler (starting from 1e-3) and Adam optimizer_
 Here the network seems to be ok but no good so far because the RMSE values and the Validation Loss values are still a little high.
 
