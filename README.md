@@ -11,3 +11,4 @@
 ### [Network 7](checkpoints/Xception_plus_net_4-conv_1-dense_scheduledLR_BatchNorm_MSE/)
 ### [Network 8](checkpoints/Xception_plus_net_5-conv_1-dense_scheduledLR_BatchNorm/)
 ### [Network 9](checkpoints/Xception_plus_net_5-conv_1-dense_scheduledLR_BatchNorm_MSE/)
+### [Network 10](checkpoints/Xception_plus_net_5-conv_1-dense_scheduledLR_BatchNorm_MSE_LINEARactivation/)
