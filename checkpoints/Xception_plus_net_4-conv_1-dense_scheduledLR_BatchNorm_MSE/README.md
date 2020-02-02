@@ -7,7 +7,7 @@ With all possible LR values the model is not good cause of Adamax optimizer: tra
 Here the network seems to be ok but no good so far because the RMSE values and the Validation Loss values are still a little high.
 
 So we tried by using Xception plus some layers in this way (35 million parameters more or less), obtaining these following results:
-## RMSE = ?, Validation Loss = ?
+## RMSE = 0.1085, Validation Loss = 0.01103
 
 _here is the NN used:_
 
