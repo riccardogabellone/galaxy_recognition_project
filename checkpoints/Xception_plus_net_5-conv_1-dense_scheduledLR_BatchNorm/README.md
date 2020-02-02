@@ -78,7 +78,7 @@ _here is the NN used:_
 
 		print("compiling the model...")
 		optimizer = tf.keras.optimizers.Adam(lr=LR, decay=WEIGHT_DECAY)
-		model.compile(optimizer, loss='mse', metrics=[root_mean_squared_error])
+		model.compile(optimizer, loss='binary_crossentropy', metrics=[root_mean_squared_error])
 
 		return model
 
