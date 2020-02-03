@@ -1,7 +1,7 @@
 ﻿# network with Xception as input plus 5 convolutional layers (from 1024 to 64) with BatchNormalization and 1*3 dense + 1 (last layer with LINEAR activation over the 37 outputs instead of SIGMOID used in the other ones), LR with scheduler (starting from 1e-3), Adam optimizer and 'MSE' as loss function
 
 We tried Xception plus some layers in this way (58 million parameters more or less), obtaining these following results:
-## RMSE = ?, Validation Loss = ?
+## RMSE = 0.1065, Validation Loss = 0.01086
 
 _here is the NN used:_
 
