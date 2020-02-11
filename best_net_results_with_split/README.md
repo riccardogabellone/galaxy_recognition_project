@@ -1,6 +1,6 @@
 ﻿# network with Xception as input plus 1 dense (37 outputs), LR with scheduler (starting from 1e-3), Adam optimizer and 'MSE' as loss function
 
-We split training dataset into [test](test_from_training/) set (20%) and [train](training_from_training/) set (80%), using it 10% for validation and 90% for training, obtaining these following results:
+We split training dataset into [test](../test_from_training/) set (20%) and [train](../training_from_training/) set (80%), using it 10% for validation and 90% for training, obtaining these following results:
 ## RMSE on train = 0.0744, RMSE on test = 0.07298, Validation Loss = 0.00598
 
 _here is the NN used:_
